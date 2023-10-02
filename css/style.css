@@ -47,7 +47,7 @@ nav{
 }
 #banner img{
     display:block;
-    margin:52px auto;
+    margin:52px auto !important;
 }
 #banner a{
     display:inline-block;
@@ -97,7 +97,6 @@ nav{
 /* about css end*/  
 /* service css start*/
 #service{
-    background-image: url(../Images/service_img.jpg);
     background-size: cover;
     background-position: center;
     padding: 74px 0 89px;
@@ -107,7 +106,9 @@ nav{
     padding-bottom: 57px;
 }
   #service .service_item{
-    padding: 0 63.5px 57px 0;
+    /* padding: 0 63.5px 57px 0; */
+    padding-right: 63.5px;
+    padding-bottom: 57px;
   }
   #service .service_item h3{
     font-size: 16px;
@@ -119,11 +120,12 @@ nav{
     font-size: 11px;
     font-weight: 400;
   }
-/* service css end*/    
+/* service css end*/   
+
 /* my work css start*/
-/* #my_work .work_img{
-  position: relative;
-} */
+#my_work{
+  padding: 110px 0;
+}
  #my_work .work_img .overlay{
   position: absolute;
   padding: 58px 39px;
@@ -167,7 +169,7 @@ nav{
 
 }
 #form button{
-  background-color: #cfc91d;
+  background-color: var(--primary-color);
   padding:17px 65px;
   display: block;
   margin: 0 auto;
@@ -179,7 +181,7 @@ nav{
   transition: 0.4s;
 }
 #form button:hover{
-  color:#fff;
-  background-color: #02918c;
+  background-color: var(--hover-color);
+  border-radius: 15px;
 }
 /* form css end*/
