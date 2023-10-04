@@ -74,11 +74,10 @@
         border-right: 1px solid transparent;
     }
     #service {
+        background-image: none;
         background: var(--cream-color);
     }
-    #my_work{
-        background-color: red;
-    }
+    
 }
 @media (min-width:992px) and (max-width:1199.98px){
     #my_work .work_img .overlay {
