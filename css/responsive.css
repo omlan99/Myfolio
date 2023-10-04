@@ -66,6 +66,7 @@
         border-right: 1px solid transparent;
     }
     #service {
+        background-image: none !important;
         background: var(--cream-color);
     }
 }
@@ -74,7 +75,7 @@
         border-right: 1px solid transparent;
     }
     #service {
-        background-image: none;
+        background-image: none !important;
         background: var(--cream-color);
     }
     
