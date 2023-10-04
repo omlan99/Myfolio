@@ -76,15 +76,13 @@
     #service {
         background: var(--cream-color);
     }
-}
-@media (min-width:992px) and (max-width:1199.98){
-   
-    #my_work .work_img .overlay {
-        position: absolute;
-        padding: 25px 15px;
-        inset: 20px 28px;
+    #my_work{
         background-color: red;
-        transform: scale(0);
-        transition: 0.5s;
+    }
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    #my_work .work_img .overlay {
+        padding: 25px 15px;
+   
     }
 }
